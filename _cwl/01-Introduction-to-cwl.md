@@ -49,5 +49,4 @@ Final process status is success
 ## Requirements
 
 - Need Node.js in path for javascript
-- Need argparse2tool, cwl-runner, cwltool and cwltoil in your path
-- Need PIe package
+- Need cwl-runner, cwltool and cwltoil in your path
