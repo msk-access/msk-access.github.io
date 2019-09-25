@@ -6,8 +6,6 @@ main:
     url: /docs/quick-start-guide/
   - title: "CWL"
     url: /cwl/intro-to-cwl/
-  - title: "Python"
-    url: /python/index/
   - title: "Miscellaneous"
     url: /miscellaneous/
 
@@ -18,12 +16,6 @@ docs:
         url: /docs/quick-start-guide/
       - title: "Structure"
         url: /docs/structure/
-  - title: Anaconda
-    children: 
-      - title: "Installing Anaconda"
-        url: /docs/anaconda
-      - title: "Using Bioconda with PIe"
-        url: /docs/bioconda
 
 cwl:
   - title: Common Workflow Language 101
@@ -32,16 +24,6 @@ cwl:
         url: /cwl/intro-to-cwl/
       - title: "Installing and using cwltool"
         url: /cwl/intro-to-cwltool/
-
-python:
-  - title: Usage of scripts written in python
-    children:
-      - title: "pie_bwa_mem"
-        url: /python/bwa-mem/
-      - title: "pie_cutadapt"
-        url: /python/cutadapt/
-      - title: "pie_picard_markduplicates"
-        url: /python/picard-markduplicates/
 
   # sidebar navigation list sample
 sidebar-sample:
