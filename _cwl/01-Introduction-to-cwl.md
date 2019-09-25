@@ -1,5 +1,5 @@
 ---
-title: "Introduction to cwl as to use in PIe"
+title: "Introduction to cwl"
 permalink: /cwl/intro-to-cwl/
 excerpt: "What is CWL"
 last_modified_at: 2018-05-11T15:12:19-04:00
