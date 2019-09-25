@@ -7,7 +7,7 @@ excerpt: "MSK-ACCESS help documents"
 last_modified_at: 2018-05-11T15:12:19-04:00
 tags: [cwl, json, toil]
 header:
-  image: /assets/images/background.jpg
+  image: /assets/images/background.png
   caption: "Photo credit: [**Canva**](https://www.canva.com/)"
 toc: true
 ---
