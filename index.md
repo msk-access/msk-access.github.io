@@ -3,7 +3,7 @@ layout: splash
 classes:
   - landing
   - dark-theme
-excerpt: "Precision Informatics engine (PIe) help documents"
+excerpt: "MSK-ACCESS help documents"
 last_modified_at: 2018-05-11T15:12:19-04:00
 tags: [python, cwl, json, toil]
 header:
