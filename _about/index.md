@@ -11,12 +11,20 @@ toc_icon: "cog"
 ---
 [MSK-ACCEES](https://github.com/msk-access) is being developed at MSKCC as part of CMO MSK-ACCESS team for analysis of MSK-ACCESS datasets.
 
-The tool will be used for:
+
+The MSK-ACCESS project is focused on incorporating methods of "collapsing" a bam file across reads that come from the same initial cfDNA molecule, as determined by the Unique Molecular Indices included during library preparation.
+
+We use Toil and CWL to combine various tools into a pipeline for collapsing UMI-tagged DNA molecules.
+
+We draw on the work done by the Platform Informatics team at MSKCC in building Roslin and the IMPACT pipeline.
+
+
+These tools will be used for:
 
 - Ad-hoc analysis
 - Creating workflows and running workflows
-- Deploying on multiple enviornments likes:
-  - High Performance Computing Cluster
+- Running workflows in multiple environments including:
+  - High Performance Computing Clusters (SGE, LSF)
   - MacOS
   - Cloud Enviornment
 
