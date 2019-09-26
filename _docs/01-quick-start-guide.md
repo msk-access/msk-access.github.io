@@ -14,6 +14,14 @@ toc_icon: "cog"
 [^anaconda]: See [**Anaconda** page]({{ "/docs/anaconda/" | relative_url }}) for installing miniconda and using bioconda for bioinformatics tools.
 [^bioconda]: See [**Bioconda** page]({{ "/docs/bioconda/" | relative_url }}) for Using bioconda to install bioinformatics tools.
 
+
+The MSK-ACCESS project is focused on incorporating methods of "collapsing" a bam file across reads that come from the same initial cfDNA molecule, as determined by Unique Molecular Indices included during library preparation.
+
+We use Toil and CWL to combine various tools into a pipeline for collapsing UMI-tagged DNA molecules.
+
+We draw on the work done by the Platform Informatics team at MSKCC in building Roslin and the IMPACT pipeline.
+
+
 # Installing Workflows
 
 ### To view the content of the package
@@ -25,35 +33,4 @@ Go to MSK-ACCESS github page: <https://github.com/msk-access>
 Please replace workflow with a given repository
 ```bash
 curl -LO https://github.com/msk-access/workflow/archive/master.zip
-```
-
-### Install
-
-Install these tools **with sudo** rights:
-
-```bash
-unzip master.zip
-cd PIe-master
-python setup.py install
-```
-
-Install these tools **without sudo** rights:
-
-```bash
-unzip master.zip
-cd workflow-master
-python setup.py install --user
-```
-
-### Quick Access
-
-Add following to your **.bashrc** or **.bash_profile** for accessing the `*.cwl` tools:
-
-When installed **without sudo** rights:
-
-```bash
-# Set PATH to include local python bin if found
-if [ -d "$HOME/.local/bin" ]; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
 ```

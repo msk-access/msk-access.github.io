@@ -25,5 +25,5 @@ The tool will be used for:
 ## Contributors:
 
 - [Ronak H Shah](https://www.github.com/rhshah)
-- [Ian Johnson](https://)
-- [Shalabh Suman]()
+- [Ian Johnson](https://github.com/ionox0)
+- [Shalabh Suman](https://github.com/shalabhsuman)
