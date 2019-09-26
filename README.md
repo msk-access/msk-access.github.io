@@ -1,2 +1,3 @@
-# docs
-Documentation for MSK-ACCESS workflows
+### Documentation for MSK-ACCESS workflows
+
+Hosted at https://msk-access.github.io/docs/
