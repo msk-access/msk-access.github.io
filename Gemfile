@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
-ruby "2.6.2"
+
+git_source(:github) {|docs| "https://github.com/#{docs}" }
 
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll", "~> 3.5"
@@ -20,3 +23,4 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem 'jekyll-last-modified-at'
 end
+# gem "rails"
