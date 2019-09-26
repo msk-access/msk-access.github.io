@@ -13,7 +13,7 @@ toc: true
 ---
 # Welcome to MSK-ACCESS help documents
 
-[MSK-ACCESS](https://github.com/msk-access) came into existence because of the need to write flexible, portable and easy to use tools.
+[MSK-ACCESS](https://github.com/msk-access) workflows came into existence because of the need to write flexible, portable and easy to use tools.
 
 ## MSK-ACCESS workflows features
 
