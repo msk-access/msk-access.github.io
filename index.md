@@ -21,6 +21,12 @@ toc: true
 2. **Common Workflow Language (CWL)** : Have commandline tools written in common workflow language specification.
 3. **Workflow of workflow** : We will join multiple CWL workflows togather to create a final workflow.
 
+
+# Pipeline Diagram
+
+![](assets/images/access_diagram.png)
+
+
 - - - -
 
 ### Installing package
